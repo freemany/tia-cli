@@ -10,7 +10,7 @@
   "tia": "src/dp"
  },
  "scripts": {
-  "mojo": "node mojo/index.js",
+  "mojo": "node mojo/index.js"
  },
  "preferGlobal": true,
  "dependencies": {
