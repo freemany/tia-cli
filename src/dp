@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+const cmd = require('commander');
+const {setEnvDefaults} =  require('./lib/utils');
+const defaults = require('./config/defaults');
+
+setEnvDefaults(defaults);
+process.env.installDir = process.cwd() + '/';
+process.env.rootDir = __dirname + '/../';
+
+cmd
+    .version('0.0.0')
+    .description('Deputy CLI')
+    .command('dns [action]', 'DNS tool')
+    .parse(process.argv);
