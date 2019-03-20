@@ -5,9 +5,9 @@
  "repository": {},
  "version": "1.0.0",
  "author": "Freeman Yam",
- "main": "src/dp",
+ "main": "bin/dp",
  "bin": {
-  "tia": "src/dp"
+  "tia": "bin/dp"
  },
  "scripts": {
   "mojo": "node mojo/index.js"
