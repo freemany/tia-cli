@@ -3,11 +3,11 @@
  "description": "CLI",
  "license": "MIT",
  "repository": {},
- "version": "1.0.0",
+ "version": "2.0.0",
  "author": "Freeman Yam",
- "main": "bin/dp",
+ "main": "src/dp",
  "bin": {
-  "tia": "bin/dp"
+  "dp": "src/dp"
  },
  "scripts": {
   "mojo": "node mojo/index.js"
